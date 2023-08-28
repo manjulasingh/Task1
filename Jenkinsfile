@@ -8,7 +8,7 @@ pipeline {
                 script {
                 echo 'Building..'
                 //sh 'docker build -t dockertest1 .'
-                dockerImage = docker.build('test1_git demo:latest', '.')
+                dockerImage = docker.build('manjulasingh46/test1_gitdemo:latest', '.')
                 }
             }
         }
